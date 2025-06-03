@@ -1,8 +1,9 @@
 /*
 Instructions: 
-look for urlList variable and add comma separated URLs inside the quotes. Then, in CLI: 
 $ node scrape.js
 Then, CTRL + http://localhost:3000
+
+In the input, add URLs (comma separated) and click run.
 */
 
 const express = require("express");
