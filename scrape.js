@@ -5,10 +5,6 @@ $ node scrape.js
 Then, CTRL + http://localhost:3000
 */
 
-/* Test URLs:
-https://www.scottsdaleaz.gov/human-services/advocacy-center, https://www.scottsdaleaz.gov/human-services/vista-del-camino/career-center/step-teen-employment-program, https://www.scottsdaleaz.gov/human-services/paiute-neighborhood-center/family-resource-center, https://www.scottsdaleaz.gov/human-services/community-assistance-office, https://www.scottsdaleaz.gov/hr/benefits/leave-of-absence, https://www.scottsdaleaz.gov/hr/benefits/health-saving-account, https://www.scottsdaleaz.gov/historic-zoning/exterior-rehabilitation
-*/
-
 const express = require("express");
 const axios = require("axios");
 const cheerio = require("cheerio");
